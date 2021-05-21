@@ -39,31 +39,10 @@
                 </div>
             </div>
         </div>
-        <form>
-            <div class="new-project-window">
-                <h1>Add New Project</h1>
-            </div>
-            <div class="project-name">
-                <label for="exampleFormProjectName">Project Name</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="project-type-dropdown">
-                <label for="exampleFormControlSelect1">Example select</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>HTML</option>
-                    <option>CSS</option>
-                    <option>Javascript</option>
-                    <option>Node</option>
-                </select>
-            </div>
-            <div class="hourly-rate">
-                <label for="exampleFormHourlyRate">Hourly Rate ($)</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="datepicker"></div>
-        </form>
+        
+        
     </div>
-
+    
     <div class="intructions-table">
         <h2>Intructions</h2>
         <ul class="list-group list-group-flush">
@@ -74,6 +53,52 @@
         </ul>
         <button class="add-button">Add Project</button>
     </div>
+
+    <form>
+        <div class="new-project-window">
+            <h1>Add New Project</h1>
+        </div>
+        <div class="project-name">
+            <label for="exampleFormProjectName">Project Name</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="project-type-dropdown">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <div class="ui-widget">
+                <label>Your preferred programming language: </label>
+                <select id="combobox">
+                  <option value>Select one...</option>
+                  <option value="ActionScript">ActionScript</option>
+                  <option value="AppleScript">AppleScript</option>
+                  <option value="Asp">Asp</option>
+                  <option value="BASIC">BASIC</option>
+                  <option value="C">C</option>
+                  <option value="C++">C++</option>
+                  <option value="Clojure">Clojure</option>
+                  <option value="COBOL">COBOL</option>
+                  <option value="ColdFusion">ColdFusion</option>
+                  <option value="Erlang">Erlang</option>
+                  <option value="Fortran">Fortran</option>
+                  <option value="Groovy">Groovy</option>
+                  <option value="Haskell">Haskell</option>
+                  <option value="Java">Java</option>
+                  <option value="JavaScript">JavaScript</option>
+                  <option value="Lisp">Lisp</option>
+                  <option value="Perl">Perl</option>
+                  <option value="PHP">PHP</option>
+                  <option value="Python">Python</option>
+                  <option value="Ruby">Ruby</option>
+                  <option value="Scala">Scala</option>
+                  <option value="Scheme">Scheme</option>
+                </select>
+              </div>
+        </div>
+        <div class="hourly-rate">
+            <label for="exampleFormHourlyRate">Hourly Rate ($)</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="datepicker"></div>
+    </form>
 
     
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

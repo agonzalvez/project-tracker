@@ -175,8 +175,8 @@ $( function() {
     }
   });
  
-  $( ".table" ).combobox();
-  $( "#toggle" ).on( "click", function() {
-    $( ".table" ).toggle();
+  $( "#combobox" ).combobox();
+  $( ".add-button" ).on( "click", function() {
+    $( "#combobox" ).toggle();
   });
 } );
