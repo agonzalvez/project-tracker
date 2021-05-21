@@ -140,8 +140,8 @@ $( function() {
     }
   });
  
-  $( "#combobox" ).combobox();
+  $( ".table" ).combobox();
   $( "#toggle" ).on( "click", function() {
-    $( "#combobox" ).toggle();
+    $( ".table" ).toggle();
   });
 } );
