@@ -176,7 +176,7 @@ $( function() {
   });
  
   $( "#combobox" ).combobox();
-  $( "#toggle" ).on( "click", function() {
+  $( ".add-button" ).on( "click", function() {
     $( "#combobox" ).toggle();
   });
 } );
